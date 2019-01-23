@@ -1,0 +1,500 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core": "1.16.0"
+        }
+      },
+      "Grpc.Core/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Interactive.Async": "3.1.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "build": {
+          "build/net45/Grpc.Core.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
+            "assetType": "native",
+            "rid": "win"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
+            "assetType": "native",
+            "rid": "win"
+          }
+        }
+      },
+      "Grpc.Tools/1.16.0": {
+        "type": "package"
+      },
+      "Oracle.ManagedDataAccess/18.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "System.Interactive.Async/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        }
+      },
+      "KlikkeloDotNet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core": "1.16.0"
+        }
+      },
+      "Grpc.Core/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Interactive.Async": "3.1.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "native": {
+          "runtimes/win/native/grpc_csharp_ext.x64.dll": {},
+          "runtimes/win/native/grpc_csharp_ext.x86.dll": {}
+        },
+        "build": {
+          "build/net45/Grpc.Core.targets": {}
+        }
+      },
+      "Grpc.Tools/1.16.0": {
+        "type": "package"
+      },
+      "Oracle.ManagedDataAccess/18.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "System.Interactive.Async/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        }
+      },
+      "KlikkeloDotNet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core": "1.16.0"
+        }
+      },
+      "Grpc.Core/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Interactive.Async": "3.1.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "build": {
+          "build/net45/Grpc.Core.targets": {}
+        }
+      },
+      "Grpc.Tools/1.16.0": {
+        "type": "package"
+      },
+      "Oracle.ManagedDataAccess/18.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "System.Interactive.Async/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        }
+      },
+      "KlikkeloDotNet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core": "1.16.0"
+        }
+      },
+      "Grpc.Core/1.16.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Interactive.Async": "3.1.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Grpc.Core.dll": {}
+        },
+        "build": {
+          "build/net45/Grpc.Core.targets": {}
+        }
+      },
+      "Grpc.Tools/1.16.0": {
+        "type": "package"
+      },
+      "Oracle.ManagedDataAccess/18.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "System.Interactive.Async/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Interactive.Async.dll": {}
+        }
+      },
+      "KlikkeloDotNet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KlikkeloDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.6.1": {
+      "sha512": "D/h9IZl76jjfM5VlPzG235Zdys9RKXNLYbRGm2fa6Y2UshTqAvYBPIydNOvNTEa24DER/m/zvelHlLO9n1GtNQ==",
+      "type": "package",
+      "path": "google.protobuf/3.6.1",
+      "files": [
+        ".signature.p7s",
+        "google.protobuf.3.6.1.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.xml"
+      ]
+    },
+    "Grpc/1.16.0": {
+      "sha512": "PVtjklqWtWjbyIy4HEcr5EZWwMGxhlNqNNA6zDoGLxhyW7WI5dzVvJjVgv7+cuLuAQ4DUT67UenHSqjYWlv6Jw==",
+      "type": "package",
+      "path": "grpc/1.16.0",
+      "files": [
+        ".signature.p7s",
+        "grpc.1.16.0.nupkg.sha512",
+        "grpc.nuspec"
+      ]
+    },
+    "Grpc.Core/1.16.0": {
+      "sha512": "9LttAPLfSjBsrYyB97CIm45j4lAIoG5h2H+arEHwuZy8eYyhKoyE2dRSvR5eazcLO27SD53RhCLROf0Pd4Y9MA==",
+      "type": "package",
+      "path": "grpc.core/1.16.0",
+      "files": [
+        ".signature.p7s",
+        "build/MonoAndroid10/Grpc.Core.targets",
+        "build/Xamarin.iOS10/Grpc.Core.targets",
+        "build/net45/Grpc.Core.targets",
+        "grpc.core.1.16.0.nupkg.sha512",
+        "grpc.core.nuspec",
+        "lib/net45/Grpc.Core.dll",
+        "lib/net45/Grpc.Core.pdb",
+        "lib/net45/Grpc.Core.xml",
+        "lib/netstandard1.5/Grpc.Core.dll",
+        "lib/netstandard1.5/Grpc.Core.pdb",
+        "lib/netstandard1.5/Grpc.Core.xml",
+        "native/android/arm64-v8a/libgrpc_csharp_ext.so",
+        "native/android/armeabi-v7a/libgrpc_csharp_ext.so",
+        "native/android/x86/libgrpc_csharp_ext.so",
+        "native/ios/universal/libgrpc.a",
+        "native/ios/universal/libgrpc_csharp_ext.a",
+        "runtimes/linux/native/libgrpc_csharp_ext.x64.so",
+        "runtimes/linux/native/libgrpc_csharp_ext.x86.so",
+        "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib",
+        "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib",
+        "runtimes/win/native/grpc_csharp_ext.x64.dll",
+        "runtimes/win/native/grpc_csharp_ext.x86.dll"
+      ]
+    },
+    "Grpc.Tools/1.16.0": {
+      "sha512": "a1fp8IqaRqPrIuNrgYvlHtZYPBGJ9KtqDQ+P8ht6ulb+j+hmOeXVNzZAyeKadWVwk3iQtfi2ngCIPJ+xkM8yjw==",
+      "type": "package",
+      "path": "grpc.tools/1.16.0",
+      "files": [
+        ".signature.p7s",
+        "grpc.tools.1.16.0.nupkg.sha512",
+        "grpc.tools.nuspec",
+        "tools/linux_x64/grpc_csharp_plugin",
+        "tools/linux_x64/protoc",
+        "tools/linux_x86/grpc_csharp_plugin",
+        "tools/linux_x86/protoc",
+        "tools/macosx_x64/grpc_csharp_plugin",
+        "tools/macosx_x64/protoc",
+        "tools/macosx_x86/grpc_csharp_plugin",
+        "tools/macosx_x86/protoc",
+        "tools/windows_x64/grpc_csharp_plugin.exe",
+        "tools/windows_x64/protoc.exe",
+        "tools/windows_x86/grpc_csharp_plugin.exe",
+        "tools/windows_x86/protoc.exe"
+      ]
+    },
+    "Oracle.ManagedDataAccess/18.3.0": {
+      "sha512": "3Eazd+XJJAAvZetbxwXIyZfE/tYpgkmnt0M24/CGvaJujQA0kPsT6yR5ZP4KIGrgh2CjCRdlAGmkM1uCbEwp9w==",
+      "type": "package",
+      "path": "oracle.manageddataaccess/18.3.0",
+      "files": [
+        ".signature.p7s",
+        "bin/x64/Oracle.ManagedDataAccessDTC.dll",
+        "bin/x64/Oracle.ManagedDataAccessIOP.dll",
+        "bin/x86/Oracle.ManagedDataAccessDTC.dll",
+        "bin/x86/Oracle.ManagedDataAccessIOP.dll",
+        "content/net40/App.config.install.xdt",
+        "content/net40/App.config.transform",
+        "content/net40/App.config.uninstall.xdt",
+        "content/net40/Web.config.install.xdt",
+        "content/net40/Web.config.transform",
+        "content/net40/Web.config.uninstall.xdt",
+        "info.txt",
+        "lib/net40/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.18.3.0.nupkg.sha512",
+        "oracle.manageddataaccess.nuspec",
+        "readme.txt"
+      ]
+    },
+    "System.Interactive.Async/3.1.1": {
+      "sha512": "x9y2omkjEudKbIVuhUzeWw7ZlouEzpk4W98woCEq1lq9gJxERBKRKDTHF5JPEws9E0f4/Uei/2vLxEy1IrfmMg==",
+      "type": "package",
+      "path": "system.interactive.async/3.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/System.Interactive.Async.dll",
+        "lib/net45/System.Interactive.Async.xml",
+        "lib/net46/System.Interactive.Async.dll",
+        "lib/net46/System.Interactive.Async.xml",
+        "lib/netstandard1.0/System.Interactive.Async.dll",
+        "lib/netstandard1.0/System.Interactive.Async.xml",
+        "lib/netstandard1.3/System.Interactive.Async.dll",
+        "lib/netstandard1.3/System.Interactive.Async.xml",
+        "system.interactive.async.3.1.1.nupkg.sha512",
+        "system.interactive.async.nuspec"
+      ]
+    },
+    "KlikkeloDotNet/1.0.0": {
+      "type": "project",
+      "path": "../GreeterDotNet/KlikkeloDotNet.csproj",
+      "msbuildProject": "../GreeterDotNet/KlikkeloDotNet.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Google.Protobuf >= 3.6.1",
+      "Grpc >= 1.16.0",
+      "Grpc.Tools >= 1.16.0",
+      "KlikkeloDotNet >= 1.0.0",
+      "Oracle.ManagedDataAccess >= 18.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Gajdi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Gajdi\\Desktop\\szolgprog\\Clicker\\GreeterServerDotNet\\KlikkeloServerDotNet.csproj",
+      "projectName": "KlikkeloServerDotNet",
+      "projectPath": "C:\\Users\\Gajdi\\Desktop\\szolgprog\\Clicker\\GreeterServerDotNet\\KlikkeloServerDotNet.csproj",
+      "packagesPath": "C:\\Users\\Gajdi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gajdi\\Desktop\\szolgprog\\Clicker\\GreeterServerDotNet\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Gajdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\Gajdi\\Desktop\\szolgprog\\Clicker\\GreeterDotNet\\KlikkeloDotNet.csproj": {
+              "projectPath": "C:\\Users\\Gajdi\\Desktop\\szolgprog\\Clicker\\GreeterDotNet\\KlikkeloDotNet.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.6.1, )"
+          },
+          "Grpc": {
+            "target": "Package",
+            "version": "[1.16.0, )"
+          },
+          "Grpc.Tools": {
+            "target": "Package",
+            "version": "[1.16.0, )"
+          },
+          "Oracle.ManagedDataAccess": {
+            "target": "Package",
+            "version": "[18.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

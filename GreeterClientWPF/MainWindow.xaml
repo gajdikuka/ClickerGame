@@ -1,0 +1,45 @@
+﻿<Window x:Class="GreeterClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GreeterClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="1" Grid.Column="4" FontSize="20">Clicks</TextBlock>
+    <TextBlock Name="txt_Clicks" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" FontSize="20" Text="" ></TextBlock>
+
+    <TextBlock Grid.Row="0" Grid.Column="7" FontSize="20" Grid.ColumnSpan="2">Scoreboard</TextBlock>
+    <TextBlock Name="txt_Winners" Grid.Row="1" Grid.Column="7" FontSize="20" Grid.ColumnSpan="3"  Grid.RowSpan="9"></TextBlock>
+
+    <Button Name="btn_click" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="btn_click_click" >Click</Button>
+    <Button Name="btn_reset" Grid.Row="9" Grid.Column="0" Click="btn_reset_Click">Reset</Button>
+    <Button Name="btn_logout" Grid.Row="0" Grid.Column="0" Click="btn_logout_Click">Logout</Button>
+    <TextBlock Name="txt_currentuser" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" FontSize="20">Username</TextBlock>
+  </Grid>
+</Window>

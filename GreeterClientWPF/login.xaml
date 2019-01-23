@@ -1,0 +1,41 @@
+﻿<Window x:Class="GreeterClientWPF.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GreeterClientWPF"
+        mc:Ignorable="d"
+        Title="login" Height="450" Width="450">
+    <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="8" FontSize="20">Felhasználónév</TextBlock>
+    <TextBox Name="tb_username" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="8"></TextBox>
+    <TextBlock Name="tb_hiba" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="8" FontSize="20" Foreground="Red" FontWeight="Bold"></TextBlock>
+    <TextBlock Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="8" FontSize="20">Jelszó</TextBlock>
+    <TextBox Name="tb_password" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="8"></TextBox>
+    <Button Name="btn_login" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Click="btn_login_Click">Bejelentkezés</Button>
+    <Button Name="btn_registration" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="3" Click="btn_registration_Click">Regisztráció</Button>
+  </Grid>
+</Window>

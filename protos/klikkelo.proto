@@ -1,0 +1,33 @@
+package Klikkelo;
+
+
+service Klikkelo {
+  rpc listEvent (Username) returns (Reply) {}
+  rpc ClickEvent (Username) returns (Success) {}
+  rpc ResetEvent (Username) returns (Success) {}
+  rpc AddEvent (Usercred) returns (Success) {}
+  rpc LoginEvent (Usercred) returns (Success) {}
+  rpc ClickBetoltEvent (Username) returns (Clicks) {}
+}
+
+
+message Reply {
+  string message = 1;
+}
+
+message Username {
+  string name = 1;
+}
+
+message Usercred {
+  string name = 1;
+  string password = 2;
+}
+
+message Success {
+  bool sikerult = 1;
+}
+
+message Clicks {
+  string ertek = 1;
+}
